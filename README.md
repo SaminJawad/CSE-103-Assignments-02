@@ -12,7 +12,7 @@ This repository contains the solutions to some if...else problems, created as pa
 03. Input the age of a person & display whether he/she is a teenager or not.
 04. Input a number & display wheter that is perfect square or not.
 05. Input three numbers & display the difference between the highest and the lowest number.
-06. Write a C program to input basic salary of an employee and calculate its gross salary according to following:
+06. Write a C program to input basic salary of an employee and calculate its gross salary according to following:\n
       Basic Salary <=10000 : HRA = 20% , DA = 80%
       Basic Salary <=20000 : HRA = 25% , DA = 90%
       Basic Salary >20000 : HRA = 30% , DA = 95%
