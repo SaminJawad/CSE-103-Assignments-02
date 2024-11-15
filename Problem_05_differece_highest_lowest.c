@@ -13,35 +13,35 @@ int main(){
     printf("Enter the 3rd number as z\t:\t");
     scanf("%f",&z);
 
-   if(x>y && x>z){
+   if(x>=y && x>=z){
 
-        if(y<z){
+        if(y<=z){
         diff=x-y;
         }
 
-        else if(z<y){
+        else if(z<=y){
         diff=x-z;
         }
    }
 
-    else if(y>x && y>z){
+    else if(y>=x && y>=z){
 
-        if(x>z){
+        if(x>=z){
         diff=y-z;
         }
 
-        else if(x<z){
+        else if(x<=z){
         diff=y-x;
         }
    }
 
-    else if(z>x && z>y){
+    else if(z>=x && z>=y){
 
-        if(x<y){
+        if(x<=y){
             diff=z-x;
         }
 
-        else if(x>y){
+        else if(x>=y){
             diff=z-y;
         }
 
